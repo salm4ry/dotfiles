@@ -10,7 +10,7 @@ vim.keymap.set('n', '<leader>fs', builtin.spell_suggest, {})
 
 -- listchars
 vim.opt.list = true
-vim.opt.listchars:append({ tab = '  ', eol = '$', trail = '.'})
+vim.opt.listchars:append({ tab = '  ', eol = ' ', trail = '.'})
 
 -- map f5 to make
 vim.api.nvim_set_keymap('n', '<F5>', ':make<CR>', { noremap = true })
