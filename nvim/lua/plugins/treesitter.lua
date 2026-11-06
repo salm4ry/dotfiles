@@ -8,9 +8,11 @@ return {
 		treesitter.setup()
 		treesitter.install({
 			"c",
+			"cpp",
 			"lua",
 			"vim",
 			"comment",
+			"gitcommit",
 			"vimdoc",
 			"query",
 			"python",
@@ -19,9 +21,11 @@ return {
 		vim.api.nvim_create_autocmd("FileType", {
 			pattern = {
 				"c",
+				"cpp",
 				"lua",
 				"vim",
 				"comment",
+				"gitcommit",
 				"vimdoc",
 				"query",
 				"python",
